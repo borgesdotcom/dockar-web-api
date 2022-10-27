@@ -7,6 +7,5 @@ CREATE TABLE "Car" (
     "model" TEXT NOT NULL,
     "brand" TEXT NOT NULL,
     "price" DECIMAL NOT NULL,
-    "image" TEXT NOT NULL,
-    "published" BOOLEAN NOT NULL DEFAULT false
+    "image" TEXT NOT NULL
 );
